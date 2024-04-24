@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Just add for fun -->
+<div class="stars star1"></div>
+    <div class="stars star2"></div>
+    <div class="stars star3"></div>
+    <div class="stars star4"></div>
+    <div class="stars star5"></div>
+    <div class="stars star6"></div>
+    <div class="stars star7"></div>
+    <div class="stars star8"></div>
+    <div class="stars star9"></div>
+    <div class="stars star10"></div>
+    <div class="stars star11"></div>
+    <div class="stars star12"></div>
+    <div class="stars star13"></div>
+    <div class="stars star14"></div>
+    <div class="stars star15"></div>
+    <!--glittering stars for fun-->
+    <div class="container">
+        <div id="sudoku-grid">
+            <!-- Sudoku grid cells will be dynamically generated here -->
+        </div>
+        <div class="buttons">
+            <button id="solve-btn">Solve</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+        
+        //for fun star glittering multiple color
+  const stars = document.querySelectorAll('.stars');
+
+  stars.forEach(function(star) {
+    // Generate a random color
+    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+    // Apply the random color to the star
+    star.style.backgroundColor = randomColor;
+  });
+
+
+ // Create footer element
+    var footer = document.createElement("footer");
+
+    // Create anchor element
+    var anchor = document.createElement("a");
+    anchor.href = "https://www.sololearn.com/profile/31827763/?ref=app";
+    anchor.target = "_blank";
+
+    // Create image element
+    var img = document.createElement("img");
+    img.id = "logo";
+    img.src = "https://www.dropbox.com/scl/fi/hergldgtbyjwz01yfmwap/Logo.png?rlkey=tans5vtvw82e5wqjh6jnj76n8&dl=1";
+    img.width = "80";
+    img.height = "80";
+
+    // Append image to anchor
+    anchor.appendChild(img);
+
+    // Append anchor to footer
+    footer.appendChild(anchor);
+
+    // Append footer to document body
+    document.body.appendChild(footer);
+
+});
+
+    </script>
+</body>
+<footer>
+    
+</footer>
+      </html>
+              
