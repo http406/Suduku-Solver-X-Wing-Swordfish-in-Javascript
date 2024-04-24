@@ -17,4 +17,3 @@ To make the algorithm smarter and solve 11x11 Sudoku puzzles faster than the pre
 This code should provide a more efficient solving algorithm for 11x11 Sudoku puzzles, incorporating advanced techniques like forward checking, hidden singles, and elimination strategies for naked pairs/triples/quads.
 
 
-https://github.com/s-u-n-n-y-404/Suduku-Solver-X-Wing-Swordfish-in-Javascript/blob/9ac09e304f2df6babda8974e91c082718c943d99/Screenshot_2024-04-22-23-12-52-57.jpg
